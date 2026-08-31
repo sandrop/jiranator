@@ -1,0 +1,22 @@
+{
+  "name": "jiranator",
+  "owner": {
+    "name": "Sandro",
+    "email": "sandrogithub@pm.me"
+  },
+  "plugins": [
+    {
+      "name": "jiranator",
+      "source": "./",
+      "description": "Config-first Jira tooling for Claude Code: resolve instance URL, project keys, field ids, and JQL from a neutral profile, read REST credentials from .env, and keep state under ~/.claude/.sct/jiranator/.",
+      "version": "0.6.0",
+      "keywords": [
+        "jiranator",
+        "jira",
+        "issue-tracking",
+        "config-first",
+        "claude-code"
+      ]
+    }
+  ]
+}

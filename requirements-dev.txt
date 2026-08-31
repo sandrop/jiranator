@@ -1,0 +1,5 @@
+# Dev/test dependency for the standalone jiranator plugin.
+# Plugin runtime code (cli/, lib/, commands/) is stdlib-only; pytest is the sole
+# third-party dependency, used by tests/.
+# Install: uv pip install -r requirements-dev.txt
+pytest>=9,<10

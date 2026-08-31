@@ -1,0 +1,12 @@
+# jiranator config (flat-subset YAML; stdlib loader, no PyYAML).
+# Copy to jiranator.yaml in this directory and keep private values uncommitted.
+profile: default
+instance_url: "https://your-org.atlassian.net"
+project_keys:
+  - "PROJ"
+field_ids:
+  # Set this to the story-points field ID for your Jira site before creating tickets with points.
+  story_points: ""
+story_points_field_confirmed: false
+jql:
+  my_open: "assignee = currentUser() AND statusCategory != Done"

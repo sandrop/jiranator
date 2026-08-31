@@ -1,0 +1,11 @@
+{
+  "name": "jiranator",
+  "description": "Config-first Jira tooling for Claude Code: resolve instance URL, project keys, field ids, and JQL from a neutral profile, read REST credentials from .env, and keep state under ~/.claude/.sct/jiranator/.",
+  "version": "0.6.0",
+  "version-date": "2026-08-31",
+  "author": { "name": "Sandro", "email": "sandrogithub@pm.me" },
+  "homepage": "https://github.com/sandrop/jiranator",
+  "repository": "https://github.com/sandrop/jiranator",
+  "license": "MIT",
+  "keywords": ["jiranator", "jira", "issue-tracking", "config-first", "claude-code"]
+}
