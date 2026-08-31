@@ -4,6 +4,7 @@
     "name": "Sandro",
     "email": "sandrogithub@pm.me"
   },
+  "description": "Config-first Jira tooling for Claude Code: resolve instance URL, project keys, field ids, and JQL from a neutral profile, read REST credentials from .env, and keep state under ~/.claude/.sct/jiranator/.",
   "plugins": [
     {
       "name": "jiranator",
